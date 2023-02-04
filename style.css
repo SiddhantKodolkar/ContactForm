@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Caveat:wght@500&family=Courgette&family=Oxygen&family=Raleway:wght@300&family=Sevillana&family=Signika+Negative:wght@700&display=swap');
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+body{
+    background: url(back.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+p{
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.input-class{
+    justify-content: center;
+    text-align: center;
+} 
+input{
+    font-family: 'Signika Negative', sans-serif;
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    
+}
+textarea{
+    font-family: 'Signika Negative', sans-serif;
+    width: 600px;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+}
+.btn{
+    font-family: 'Andika', sans-serif;
+    width: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    background: none;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+}
+.response{
+    text-align: center;
+    font-weight: bold;
+    color: green;
+}
